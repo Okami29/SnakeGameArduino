@@ -10,7 +10,7 @@
 
 # Wiring Diagram:
 OLED Display (I2C - 4 Pins):
-- VCC → 5V (Arduino)
+- VCC → 5V (Arduino, ESP32 - 3.3V)
 - GND → GND (Arduino)
 - SDA → A4 (Arduino Uno I2C SDA, ESP32 GPIO21)
 - SCL → A5 (Arduino Uno I2C SCL, ESP32 GPIO22)
