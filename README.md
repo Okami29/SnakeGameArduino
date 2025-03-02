@@ -12,8 +12,8 @@
 OLED Display (I2C - 4 Pins):
 - VCC → 5V (Arduino)
 - GND → GND (Arduino)
-- SDA → A4 (Arduino Uno I2C SDA)
-- SCL → A5 (Arduino Uno I2C SCL)
+- SDA → A4 (Arduino Uno I2C SDA, ESP32 GPIO21)
+- SCL → A5 (Arduino Uno I2C SCL, ESP32 GPIO22)
 
 Joystick Module:
 - VRX → A0 (Analog X-Axis)
