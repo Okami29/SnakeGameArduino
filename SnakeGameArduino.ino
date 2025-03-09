@@ -6,8 +6,8 @@
 #define OLED_RESET    -1
 Adafruit_SSD1306 display(SCREEN_WIDTH, SCREEN_HEIGHT, &Wire, OLED_RESET);
 
-const int VRX = 4;
-const int VRY = 5;
+const int VRX = A0;
+const int VRY = A1;
 const int SW = 2;
 
 int snakeX[100], snakeY[100];
