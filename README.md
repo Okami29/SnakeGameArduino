@@ -2,7 +2,7 @@
 🕹️ Snake Game with Arduino, Joystick, and OLED Display
 
 # Components Required:
-- Arduino Uno (or compatible board)
+Arduino Uno (or compatible board)
 - Joystick Module (with VRX, VRY, SW pins)
 - 0.96" OLED Display (128x64, SSD1306, I2C)
 - Jumper Wires
