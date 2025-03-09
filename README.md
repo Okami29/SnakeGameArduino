@@ -10,14 +10,14 @@
 
 # Wiring Diagram:
 OLED Display (I2C - 4 Pins):
-- VCC → 5V (Arduino, ESP32 - 3.3V)
+- VCC → 5V (Arduino)
 - GND → GND (Arduino)
-- SDA → A4 (Arduino Uno I2C SDA, ESP32 GPIO21)
-- SCL → A5 (Arduino Uno I2C SCL, ESP32 GPIO22)
+- SDA → A4 (Arduino Uno I2C SDA)
+- SCL → A5 (Arduino Uno I2C SCL)
 
 Joystick Module:
-- VRX → A0 (Arduino) / GPIO4 (ESP32) 
-- VRY → A1 (Arduino) / GPIO5 (ESP32)
+- VRX → A0 (Analog X-Axis)
+- VRY → A1 (Analog Y-Axis)
 - SW → D2 (Digital Pin for button press)
 - VCC → 5V
 - GND → GND
